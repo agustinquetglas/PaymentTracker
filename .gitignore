@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Archivos compilados
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de entorno
+.env
+
+# Configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de TypeScript
+*.tsbuildinfo
