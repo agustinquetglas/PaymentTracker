@@ -1,6 +1,6 @@
 import { Expense } from "../main/Expense";
 
-describe("Expense Class", function () {
+describe("Clase Expense", function () {
   test("Deberia crear un gasto correctamente", function () {
     const expense = new Expense(2, 200, "Comida", new Date(), "Food");
 
