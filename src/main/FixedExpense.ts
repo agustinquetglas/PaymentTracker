@@ -21,4 +21,6 @@ export class FixedExpense extends Payment {
     const today = new Date();
     return today.getDate() >= this.dayOfMonth;
   }
+
+  //getDate() trae la fecha actual en la vida real
 }

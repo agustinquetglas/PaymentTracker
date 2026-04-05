@@ -1,6 +1,10 @@
 import { Menu } from "../main/Menu";
 import { PaymentService } from "../main/PaymentService";
 import { Income } from "../main/Income";
+import { Expense } from "../main/Expense";
+import { FixedExpense } from "../main/FixedExpense";
+import { Payment } from "../main/Payment";
+
 
 describe("Menu", function () {
 
@@ -50,4 +54,5 @@ describe("Menu", function () {
 
     expect(result).toContain("No hay pagos registrados");
   });
+  
 });

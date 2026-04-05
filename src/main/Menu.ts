@@ -11,7 +11,7 @@ export class Menu {
     return `
     1. Agregar pago
     2. Listar pagos
-    3. Ver balance
+    3. Ver balance por mes
     4. Salir
     `;
   }
