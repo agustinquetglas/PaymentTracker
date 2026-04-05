@@ -1,6 +1,9 @@
+import { FixedExpense } from "./FixedExpense";
 import { Payment } from "./Payment";
 export class PaymentService {
     private payments: Payment[];
+    private fixedExpenses: FixedExpense[] = [];
+
     constructor() {
         this.payments = [];
     }
@@ -39,5 +42,20 @@ export class PaymentService {
 
     public getBalance(): number {
         return this.getTotalIncome() - this.getTotalExpense();
+    }
+
+    public addFixedExpense(expense: FixedExpense): void {
+        this.fixedExpenses.push(expense);
+    }
+
+    public getFixedExpenses(): FixedExpense[] {
+        return this.fixedExpenses;
+    }
+
+    // Devuelve solo los gastos fijos que se aplican al mes actual por fechas
+    public getMonthlyFixedExpenses(): FixedExpense[] {
+        return this.fixedExpenses.filter(expense =>
+        expense.appliesToCurrentMonth()
+    );
     }
 }
