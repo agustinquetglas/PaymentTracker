@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clonar repo
+      - name: Checkout del código
         uses: actions/checkout@v3
 
-      - name: Instalar Node
+      - name: Configurar Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
