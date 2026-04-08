@@ -75,7 +75,5 @@ describe("Clase PaymentService", function () {
 
         expect(result).toBe(0);
     });
-
-
 });
 });

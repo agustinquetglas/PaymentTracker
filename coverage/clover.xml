@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1775416724314" clover="3.2.0">
-  <project timestamp="1775416724314" name="All files">
+<coverage generated="1775488004062" clover="3.2.0">
+  <project timestamp="1775488004062" name="All files">
     <metrics statements="75" coveredstatements="75" conditionals="14" coveredconditionals="13" methods="30" coveredmethods="30" elements="119" coveredelements="118" complexity="0" loc="75" ncloc="75" packages="1" files="6" classes="6"/>
     <file name="Expense.ts" path="C:\Users\ryrco\OneDrive\Desktop\Proyecto 1 typescript\src\main\Expense.ts">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
